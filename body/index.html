@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="nectar" />
+    <meta name="description" content="Wellness-территория красоты и баланса. Подарите своему телу полное погружение в атмосферу расслабления" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" href="./../assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./../assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./../assets/css/styles.min.css" />
+    <title>Body</title>
+  </head>
+
+  <body class="body">
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="preloader__logo">
+        <svg>
+          <use href="./../assets/img/icons.svg#logo"></use>
+        </svg>
+      </div>
+    </div>
+
+    <!--header-->
+    <header class="header">
+      <div class="container" data-animation="fade-top">
+        <a href="./../" class="logo">
+          <svg width="62" height="50">
+            <use href="./../assets/img/icons.svg#logo"></use>
+          </svg>
+        </a>
+        <div class="header__buttons">
+          <a href="tel:+37256469796">+372 5646 9796</a>
+          <div class="language">
+            <p class="js-current-language">ru</p>
+            <ul>
+              <li class="language__link" data-language="ru">ru</li>
+              <li class="language__link" data-language="en">en</li>
+              <li class="language__link" data-language="et">et</li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-backdrop">
+          <div class="menu-body">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li>
+                  <a href="./../">spa-меню</a>
+                  <ul>
+                    <li><a href="./../face">Face</a></li>
+                    <li><a href="./../body">Body</a></li>
+                    <li><a href="./../nails">Nails</a></li>
+                    <li>
+                      <a href="./../vibra">Аппаратная косметолгия - <br />Vibra B</a>
+                    </li>
+                    <li><a href="./../aromatherapy">Ароматерапия</a></li>
+                    <li><a href="./../day_spa">Day spa</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://mnectar.eu/" target="_blank">магазин</a></li>
+                <li><a href="https://aromamoda.com/" target="_blank">школа</a></li>
+                <li><a href="./../" data-scrollto="section--about">о нас</a></li>
+                <li><a href="./../" data-scrollto="footer">контакты</a></li>
+              </ul>
+            </nav>
+            <a href="./../certificate" class="button button--small">сертификат</a>
+          </div>
+        </div>
+        <button type="button" class="burger" data-menu-open><span>burger button</span></button>
+      </div>
+    </header>
+    <!--header end-->
+
+    <main class="main">
+      <!--section SERVICE HEAD-->
+      <section class="section section--standart">
+        <div class="container">
+          <div class="single-header">
+            <div class="titleBox" data-animation="fade-bottom" data-delay="10">
+              <h1 class="title title--h3">
+                МЕНЮ <br />
+                SPA-СЕРВИСОВ <br />
+                BODY
+              </h1>
+              <p class="subtitle">Все виды ухода за телом</p>
+              <a href="https://wa.me/37256469796" class="button" target="_blank">записаться online</a>
+            </div>
+            <div class="single-header__images" data-animation="scale" data-delay="10">
+              <div class="image">
+                <img
+                  srcset="./../assets/img/services/1b.jpg 1x, ./../assets/img/services/1b@2x.jpg 2x"
+                  src="./../assets/img/services/1b.jpg"
+                  alt="nectar"
+                  width="650"
+                  height="235"
+                />
+                <a href="https://wa.me/37256469796" class="button" target="_blank">записаться online</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section SERVICE HEAD end-->
+
+      <!--section FORM-->
+      <section class="section section--padBottom">
+        <div class="container">
+          <div class="formBox" data-animation="fade-bottom" data-delay="10">
+            <div class="form-content">
+              <h3 class="title title--h5">При посещении любого массажа от 60 минут в подарок маникюр*.</h3>
+              <p class="subtitle small">
+                *маникюр можно посетить в любое другое удобное <br class="del_in1024" />время и нужно будет бронировать заранее
+              </p>
+              <div class="form-content__price">
+                <div class="formPrice">
+                  <!-- <span>135€</span> -->
+                  <p>60 минут от 90€</p>
+                </div>
+                <img
+                  class="offer"
+                  srcset="./../assets/img/offer.png 1x, ./../assets/img/offer@2x.png 2x"
+                  src="./../assets/img/offer.png"
+                  alt="spa salon nectar"
+                  width="262"
+                  height="239"
+                />
+              </div>
+            </div>
+            <div class="form-inputs">
+              <form action="#" method="POST" class="form" autocomplete="off" novalidate>
+                <input type="hidden" name="subject" class="subject" value="Специальное предложение" />
+                <!-- name -->
+                <label class="label">
+                  <input type="text" class="input" name="name" placeholder="Имя" required />
+                </label>
+                <!-- Phone -->
+                <label class="label">
+                  <input type="tel" class="input input--tel" name="phone" required />
+                </label>
+                <!-- submit -->
+                <button type="submit" class="button button--border">Отправить</button>
+                <p class="policy">Отправляя контактные данные, Вы соглашаетесь с <a href="./../policy/">политикой конфиденциальности</a> сайта</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section FORM end-->
+
+      <!--section PRICE TABLE-->
+      <section class="section section--padTop">
+        <div class="container">
+          <h2 class="title title--40">МАССАЖНЫЕ РИТУАЛЫ</h2>
+          <ul class="prices-table" data-animation="fade-bottom" data-delay="10">
+            <li class="prices-table__item">
+              <div class="titleBox">
+                <h3 class="title title--h5">Массаж</h3>
+                <p class="subtitle small">
+                  Это необходимая забота и внимание к вашему телу. Мы собрали лучших специалистов Таллина, которые чутко и профессионально работают с
+                  телом. Благодаря нашим массажным программам вы погрузитесь в тотальное расслабление, освободитесь от блоков и зажимов, почувствуете
+                  обновление и приятную легкость.
+                </p>
+              </div>
+            </li>
+
+            <li class="prices-table__item head" data-animation="fade-bottom" data-delay="10">
+              <h3 class="title">Ритуалы по уходы за телом</h3>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">ТАЙСКИЙ МАССАЖ СТОП</b>
+                Тщательная проработка биоактивных точек стопы для бодрости и здоровья всего организма
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">АРОМАМАССАЖ РЕЛАКС</b>
+                Расслабляющие техники массажа в сочетании с успокаивающим действием <br />натуральных эфирных масел
+              </p>
+              <p class="prices">
+                <span>60 / 90 мин.</span>
+                <span>€90 / €130</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">СКАНДИНАВСКИЙ МАССАЖ</b>
+                Противоотечный, скульптурирующий массаж с применением лимфодренажных техник
+              </p>
+              <p class="prices">
+                <span>60 / 90 мин.</span>
+                <span>€90 / €130</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item head" data-animation="fade-bottom" data-delay="10">
+              <h3 class="title">ЛАКШЕРИ ПРОГРАММЫ ПО УХОДУ ЗА ТЕЛОМ ОТ ALPEOR</h3>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">УСПОКАИВАЮЩИЙ И РАССЛАБЛЯЮЩИЙ МАССАЖ СПИНЫ</b>
+              </p>
+              <p class="prices">
+                <span>45 мин.</span>
+                <span>€135</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">КОНТУРНЫЙ МАССАЖ ТЕЛА</b>
+              </p>
+              <p class="prices">
+                <span>45 мин.</span>
+                <span>€135</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">ЛЁГКИЙ И СОБЛАЗНИТЕЛЬНЫЙ МАССАЖ НОГ</b>
+              </p>
+              <p class="prices">
+                <span>45 мин.</span>
+                <span>€135</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">ГЛУБОКИЙ БОДРЯЩИЙ МАССАЖ</b>
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€180</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item head">
+              <h3 class="title">Пилинг для тела Alpeor</h3>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">ТОНИЗИРУЮЩИЙ - ЭНЕРГЕТИЧЕСКИЙ СКРАБ</b>
+              </p>
+              <p class="prices">
+                <span>40 мин.</span>
+                <span>€120</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">РАССЛАБЛЯЮЩИЙ СКРАБ</b>
+              </p>
+              <p class="prices">
+                <span>40 мин.</span>
+                <span>€120</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item head" data-animation="fade-bottom" data-delay="10">
+              <h3 class="title">Обёртывание Alpeor</h3>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">ОХЛАЖДАЮЩЕЕ ОБЁРТЫВАНИЕ ДЛЯ НОГ ALPEOR</b>
+              </p>
+              <p class="prices">
+                <span>30 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">ОБЁРТЫВАНИЕ/МАСКА ДЛЯ ПОХУДЕНИЯ</b>
+              </p>
+              <p class="prices">
+                <span>40 мин.</span>
+                <span>€120</span>
+              </p>
+            </li>
+
+            <!--MENU SPA START-->
+
+            <li class="prices-table__item head" data-animation="fade-bottom" data-delay="10">
+              <h3 class="title">Меню спа</h3>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Успокаивающий и расслабляющий массаж спины</b>
+                <span
+                  >Безболезненный массаж направленный на избавиться от напряжения и стресса, помогая расслабить мышцы и улучшить общее
+                  самочувствие.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€60</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Индийский массаж головы</b>
+                <span
+                  >Индийский массаж головы - это волшебное путешествие в мир глубокой релаксации и баланса. Наши нежные прикосновения и специальные
+                  техники помогут вам освободиться от напряжения в голове и шее, улучшив циркуляцию крови и создавая чувство гармонии.</span
+                >
+              </p>
+              <p class="prices">
+                <span>30 мин.</span>
+                <span>€60</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Тайский массаж ног</b>
+                <span
+                  >Тайский массаж ног - это искусство ухода за вашими ногами и душой. В течение 30 минут вы погрузитесь в мир расслабления, позволив
+                  нашим опытным терапевтам улучшить циркуляцию крови, разрядить напряжение в мышцах и придать вашим ногам ощущение легкости и
+                  комфорта. Идеален после перелетов на самолете или частой работы "на ногах".</span
+                >
+              </p>
+              <p class="prices">
+                <span>30 мин.</span>
+                <span>€60</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Тайский классический массаж</b>
+                <span
+                  >Древнее искусство восстановления баланса и гармонии в вашем теле. Наши опытные терапевты используют традиционные техники, включая
+                  растяжки и точечный массаж, чтобы улучшить вашу подвижность, снять напряжение в мышцах и способствовать общему оздоровлению.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60/90 мин.</span>
+                <span>€90/130</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Hot stone massage/ Массаж горячими камнями</b>
+                <span
+                  >Роскошное и расслабляющее приключение для вашего тела и души. Наши терапевты используют гладкие, нагретые камни, чтобы разрядить
+                  напряжение в мышцах, улучшить циркуляцию крови и доставить вам глубокое ощущение релаксации.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Фирменный массаж/ Signature massage (тайский массаж ног + аромамассаж)</b>
+                <span
+                  >Наш фирменный массаж объединяет классический массаж с эфирными маслами M.Nectar и воздействие на стопы с помощью палочек.
+                  Выполнение тайского массажа ног с помощью палочки из тикового дерева является важным атрибутом, когда идет речь о доскональной
+                  проработке нижних конечностей во время массажа. Использование палочки помогает задействовать больше 40 рефлекторных точек стопы,
+                  которые запускают положительные изменения во всем организме.</span
+                >
+              </p>
+              <p class="prices">
+                <span>90 мин.</span>
+                <span>€130</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Тибетский холистический массаж</b>
+                <span
+                  >Техника массажа представляет собой легкие, гармоничные движения, знакомые с детства покачивания и легкие вибрации. Эффективность
+                  достигается путем естественной саморегуляции организма. Метод эффективен для всех возрастов.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Шиатсу массаж</b>
+                <span
+                  >Уникальный точечный массаж, оказывающий мощное воздействие на организм. Массаж Шиацу помогает сохранить молодость и укрепить
+                  здоровье. Шиацу устраняет энергетические блоки, гармонизирует поток жизненной энергии, укрепляет психику, восстанавливает
+                  здоровье.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Скандинавский классический массаж</b>
+                <span
+                  >Этот массаж является мощным терапевтическим средством, приводящим к полной релаксации, расслаблению, снятию напряжения в мышцах,
+                  ликвидации последствий стрессов и депрессий.</span
+                >
+              </p>
+              <p class="prices">
+                <span>69/90 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Аромамассаж</b>
+                <span
+                  >Удивительное по эффекту воздействия и восприятию сочетание традиционного массажа (классического или лечебного) с ароматерапией,
+                  основанной на благотворном влиянии на человеческий организм натуральных эфирных масел.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Спортивный массаж</b>
+                <span
+                  >Вид механического воздействия на мышцы, кости и суставы человека, активно занимающегося спортом, с целью усовершенствования его
+                  физических возможностей и подготовки к большим физическим нагрузкам.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60/90 мин.</span>
+                <span>€90/130</span>
+              </p>
+            </li>
+
+            <li class="prices-table__item" data-animation="fade-bottom" data-delay="10">
+              <p class="text">
+                <b class="title">Глубокотканный (Deep tissue massage)</b>
+                <span
+                  >Массаж глубоких тканей – это мощный инструмент для решения проблем опорно-двигательного аппарата. С его помощью можно нормализовать
+                  функцию всего опорно-двигательного аппарата, как единой системы, устранить локальные перегрузки и снять боль.</span
+                >
+              </p>
+              <p class="prices">
+                <span>60 мин.</span>
+                <span>€90</span>
+              </p>
+            </li>
+
+            <!--MENU SPA END-->
+          </ul>
+        </div>
+      </section>
+      <!--section PRICE TABLE end-->
+
+      <!--section WELLNESS CLINIC-->
+      <section class="section section--wellness">
+        <div class="container">
+          <div class="titleBox">
+            <h2 class="title title--h3">ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
+          </div>
+          <div class="wellnesses">
+            <!--1-->
+            <div class="wellness wellness--one">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Курорт</h3>
+                <p class="subtitle">Один из самых эстетичных и атмосферных Spa-центров в Эстонии</p>
+              </div>
+            </div>
+            <!--2-->
+            <div class="wellness wellness--two">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Натуральные и экологически чистые продукты</h3>
+                <p class="subtitle">Используем только экологически чистые, натуральные материалы с безопасным составом</p>
+              </div>
+              <picture class="picture">
+                <source media="(min-width:1280px)" srcset="./../assets/img/wellness1.png 1x, ./../assets/img/wellness1@2x.png 2x" />
+                <source media="(min-width:1024px)" srcset="./../assets/img/wellness1_1024.png 1x, ./../assets/img/wellness1_1024@2x.png 2x" />
+                <source media="(min-width:744px)" srcset="./../assets/img/wellness1_744.png 1x, ./../assets/img/wellness1_744@2x.png 2x" />
+                <source media="(min-width:480px)" srcset="./../assets/img/wellness1_480.png 1x, ./../assets/img/wellness1_480@2x.png 2x" />
+                <img
+                  srcset="./../assets/img/wellness1_320.png 1x, ./../assets/img/wellness1_320@2x.png 2x"
+                  src="./../assets/img/wellness1_320.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--2 dop-->
+            <div class="wellness wellness--dop" data-animation="fade-bottom" data-delay="10">
+              <picture class="picture">
+                <img
+                  srcset="./../assets/img/wellness1_480.png 1x, ./../assets/img/wellness1_480@2x.png 2x"
+                  src="./../assets/img/wellness1_480.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--3-->
+            <div class="wellness wellness--three">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Удобство</h3>
+                <p class="subtitle">Персональный подход к комфорту каждого гостя</p>
+              </div>
+              <picture class="picture">
+                <source media="(min-width:1280px)" srcset="./../assets/img/wellness2.png 1x, ./../assets/img/wellness2@2x.png 2x" />
+                <source media="(min-width:1024px)" srcset="./../assets/img/wellness2_1024.png 1x, ./../assets/img/wellness2_1024@2x.png 2x" />
+                <source media="(min-width:744px)" srcset="./../assets/img/wellness2_744.png 1x, ./../assets/img/wellness2_744@2x.png 2x" />
+                <source media="(min-width:480px)" srcset="./../assets/img/wellness2_480.png 1x, ./../assets/img/wellness2_480@2x.png 2x" />
+                <img
+                  srcset="./../assets/img/wellness2_320.png 1x, ./../assets/img/wellness2_320@2x.png 2x"
+                  src="./../assets/img/wellness2_320.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--3 dop-->
+            <div class="wellness wellness--dop2" data-animation="fade-bottom" data-delay="10">
+              <picture class="picture">
+                <img
+                  srcset="./../assets/img/wellness2_480.png 1x, ./../assets/img/wellness2_480@2x.png 2x"
+                  src="./../assets/img/wellness2_480.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--4-->
+            <div class="wellness wellness--four">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Гранд-мастера</h3>
+                <p class="subtitle">Специалисты высшего класса из европейских стран</p>
+              </div>
+            </div>
+            <div class="wellness-line" data-animation="scale" data-delay="10">
+              <svg>
+                <use href="./../assets/img/icons.svg#wellness-line"></use>
+              </svg>
+              <img
+                class="wellness-line1"
+                srcset="./../assets/img/wellness1.png 1x, ./../assets/img/wellness1@2x.png 2x"
+                src="./../assets/img/wellness1.png"
+                alt="spa salon nectar"
+                width="350"
+                data-animation="scale"
+                data-delay="300"
+              />
+              <img
+                class="wellness-line2"
+                srcset="./../assets/img/wellness2.png 1x, ./../assets/img/wellness2@2x.png 2x"
+                src="./../assets/img/wellness2.png"
+                alt="spa salon nectar"
+                width="510"
+                data-animation="scale"
+                data-delay="600"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section WELLNESS CLINIC end-->
+
+      <!--section BRENDS-->
+      <section class="section section--brends">
+        <div class="container">
+          <div class="brends-head">
+            <h2 class="title title--h3">премиальная косметика</h2>
+            <p class="subtitle big">
+              Мы тщательно подбирали косметику мировых брендов для лица и тела. Искали эксклюзивные бренды и на 100% уверены в качестве.
+            </p>
+          </div>
+          <!--SLIDER ARROWS-->
+          <div class="slider-arrows">
+            <svg width="60" height="60" class="arr--prev swiperBrend--prev">
+              <use href="./../assets/img/icons.svg#prev"></use>
+            </svg>
+            <svg width="60" height="60" class="arr--next swiperBrend--next">
+              <use href="./../assets/img/icons.svg#next"></use>
+            </svg>
+          </div>
+          <!--SLIDER-->
+          <div class="brendsSlider">
+            <div class="swiper-container swiperBrend">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="brend-image">
+                    <img srcset="./../assets/img/brend1.png" src="./../assets/img/brend1.png" alt="spa salon nectar" height="72" />
+                  </div>
+                  <div class="brend-text">
+                    <h3 class="title title--h7">Alpeor Switzerland</h3>
+                    <p class="subtitle small">
+                      Раскрывает секреты природы для вашей кожи. Понимание внутренней работы жизни, использование силы растений и имитация их
+                      невероятных свойств для придания вашей коже.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brend-image">
+                    <img srcset="./../assets/img/brend2.png" src="./../assets/img/brend2.png" alt="spa salon nectar" height="72" />
+                  </div>
+                  <div class="brend-text">
+                    <h3 class="title title--h7">M. NECTAR</h3>
+                    <p class="subtitle small">
+                      Английский семейный бизнес со славянской душой и европейским подходом к качеству в сфере продажи профессиональной продукции для
+                      ароматерапии, спа и массажной техники.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brend-image">
+                    <img srcset="./../assets/img/brend3.png" src="./../assets/img/brend3.png" alt="spa salon nectar" height="72" />
+                  </div>
+                  <div class="brend-text">
+                    <h3 class="title title--h7">CND</h3>
+                    <p class="subtitle small">
+                      Одна из самых легендарных корпораций в мире. Это символ качества, синоним качества и гарантия безупречного и безопасного
+                      маникюра.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section BRENDS end--><!--section FORM-->
+      <section class="section section--padNone">
+        <div class="container">
+          <div class="formBox with--line" data-animation="fade-bottom" data-delay="10">
+            <div class="form-content">
+              <h2 class="title title--h4">Не смогли <br />подобрать услугу?</h2>
+              <div class="form-subtitle">
+                <div class="form-subtitle__text">
+                  <h3 class="title">Мы поможем</h3>
+                  <span>Оставьте свои контакты, <br />мы вам перезвоним</span>
+                </div>
+                <div class="img">
+                  <img
+                    srcset="./../assets/img/offer2.png 1x, ./../assets/img/offer2@2x.png 2x"
+                    src="./../assets/img/offer2.png"
+                    alt="spa salon nectar"
+                    width="328"
+                    height="116"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-inputs">
+              <form action="#" method="POST" class="form" autocomplete="off" novalidate>
+                <input type="hidden" name="subject" class="subject" value="Специальное предложение" />
+                <label class="label">
+                  <input type="text" class="input" name="name" placeholder="Имя" required />
+                </label>
+                <label class="label">
+                  <input type="tel" class="input input--tel" name="phone" required />
+                </label>
+                <button type="submit" class="button button--border">Отправить</button>
+                <p class="policy">Отправляя контактные данные, Вы соглашаетесь с <a href="./../policy/">политикой конфиденциальности</a> сайта</p>
+              </form>
+            </div>
+            <div class="form-socials">
+              <svg width="1338" height="128" class="soc-line">
+                <use href="./../assets/img/icons.svg#soc-line"></use>
+              </svg>
+              <p class="text">Если у Вас возникли вопросы при выборе подходящей услуги - вы можете связаться с нами в удобном для вас мессенджере</p>
+              <a href="https://wa.me/37256469796" target="_blank" class="button button--social">
+                WhatsApp
+                <svg width="20" height="20">
+                  <use href="./../assets/img/icons.svg#watsup2"></use>
+                </svg>
+              </a>
+              <a href="#!" target="_blank" class="button button--social">
+                Telegram
+                <svg width="20" height="20">
+                  <use href="./../assets/img/icons.svg#telegram2"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section FORM end-->
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_content footer_content--left">
+          <div class="footer-info">
+            <a href="./../" class="logo">
+              <svg width="122" height="104">
+                <use href="./../assets/img/icons.svg#logo"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://wa.me/37256469796" target="_blank" class="button">записаться</a>
+          </div>
+          <div class="footer-info full">
+            <a href="mailto:mnectarspa@gmail.com" class="footer__link mail">mnectarspa@gmail.com</a>
+            <a href="tel:+37256469796" class="footer__link phone">+372 5646 9796</a>
+          </div>
+        </div>
+        <div class="footer_content footer_content--right">
+          <div class="footer-info full">
+            <address class="adress">
+              <p class="title title--h6">Адрес:</p>
+              <span><a href="https://maps.app.goo.gl/9XzqV92eRpFfykC39?g_st=ic" target="_blank">C.R. Jakobsoni, 13, Tallinn, Estonia</a></span>
+            </address>
+            <address class="adress">
+              <p class="title title--h6">Часы работы:</p>
+              <span>10:00-20:00 ПН-CБ</span>
+            </address>
+            <ul class="social">
+              <li>
+                <a href="https://instagram.com/mnectar_spa?igshid=MzRlODBiNWFlZA==" target="blank">
+                  <svg width="30" height="30">
+                    <use href="./../assets/img/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/37256469796" target="blank">
+                  <svg width="30" height="30">
+                    <use href="./../assets/img/icons.svg#watsup"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#!" target="blank">
+                  <svg width="30" height="30">
+                    <use href="./../assets/img/icons.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <p class="policy del_in1024">
+              <a href="./../policy">Политика конфиденциальности</a><br />
+              &copy;SPA by M.Nectar 2023. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <div class="copy">
+          <p class="policy show_in1024">
+            <a href="./../policy">Политика конфиденциальности</a> <br />&copy;SPA by M.Nectar 2023. All rights reserved.
+          </p>
+          <p>Дизайн и разработка by <a href="https://beauty-alliance.ru/" target="_blank" class="link">Beauty Alliance</a></p>
+        </div>
+      </div>
+    </footer>
+    <!--footer end--><!-- backdrop -->
+    <div class="backdrop is-hidden"></div>
+
+    <!-- REQUEST -->
+    <div class="modal is-hidden" id="request">
+      <div class="popup__body">
+        <div class="popup">
+          <button class="popup__close" data-popup-close></button>
+          <b class="popup-title">Отправить заявку</b>
+          <p class="popup-subtitle">
+            Заполните форму и наш менеджер <br />
+            свяжется с вами в ближайшее время!
+          </p>
+          <form action="#" method="POST" class="form" autocomplete="off" novalidate>
+            <input type="hidden" name="subject" class="subject" value="Order Form" />
+            <!-- name -->
+            <label class="label">
+              <input type="text" class="input" name="name" placeholder="Имя" required />
+            </label>
+            <!-- Phone -->
+            <label class="label">
+              <input type="tel" class="input input--tel" name="phone" required />
+            </label>
+
+            <button type="submit" class="button">Отправить</button>
+            <p class="policy">Отправляя контактные данные, Вы соглашаетесь с <a href="./../policy/">политикой конфиденциальности</a> сайта</p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- LOADING -->
+    <div class="modal is-hidden" id="loading">
+      <div class="popup__body">
+        <div class="popup"></div>
+      </div>
+    </div>
+
+    <!-- OK -->
+    <div class="modal is-hidden" id="ok">
+      <div class="popup__body">
+        <div class="popup">
+          <button class="popup__close" data-popup-close></button>
+          <b class="popup-title">Ваша заявка <br />успешно отправлена</b>
+          <p class="popup-subtitle">Наш менеджер свяжется <br />с вами в ближайшее время</p>
+          <button class="button" data-popup-close>Закрыть</button>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL POPUP END--><input type="hidden" name="assets" class="js-assets" value="./../assets/" />
+    <input type="hidden" name="url" class="js-url" value="./../" />
+    <input type="hidden" name="poddomen" class="poddomen" value="/nectar_html" />
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="module" src="./../assets/js/scripts.min.js"></script>
+  </body>
+</html>

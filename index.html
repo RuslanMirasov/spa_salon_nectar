@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="nectar" />
+    <meta name="description" content="Wellness-территория красоты и баланса. Подарите своему телу полное погружение в атмосферу расслабления" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/styles.min.css" />
+    <title>SPA M.NECTAR</title>
+  </head>
+
+  <body class="body">
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="preloader__logo">
+        <svg>
+          <use href="./assets/img/icons.svg#logo"></use>
+        </svg>
+      </div>
+    </div>
+
+    <!--header-->
+    <header class="header">
+      <div class="container" data-animation="fade-top">
+        <a href="./" class="logo">
+          <svg width="62" height="50">
+            <use href="./assets/img/icons.svg#logo"></use>
+          </svg>
+        </a>
+        <div class="header__buttons">
+          <a href="tel:+37256469796">+372 5646 9796</a>
+          <div class="language">
+            <p class="js-current-language">ru</p>
+            <ul>
+              <li class="language__link" data-language="ru">ru</li>
+              <li class="language__link" data-language="en">en</li>
+              <li class="language__link" data-language="et">et</li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-backdrop">
+          <div class="menu-body">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li>
+                  <a href="./">spa-меню</a>
+                  <ul>
+                    <li><a href="./face">Face</a></li>
+                    <li><a href="./body">Body</a></li>
+                    <li><a href="./nails">Nails</a></li>
+                    <li>
+                      <a href="./vibra">Аппаратная косметолгия - <br />Vibra B</a>
+                    </li>
+                    <li><a href="./aromatherapy">Ароматерапия</a></li>
+                    <li><a href="./day_spa">Day spa</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="https://mnectar.eu/" target="_blank">магазин</a>
+                </li>
+                <li>
+                  <a href="https://aromamoda.com/" target="_blank">школа</a>
+                </li>
+                <li><a href="./" data-scrollto="section--about">о нас</a></li>
+                <li><a href="./" data-scrollto="footer">контакты</a></li>
+              </ul>
+            </nav>
+            <a href="./certificate" class="button button--small">сертификат</a>
+          </div>
+        </div>
+        <button type="button" class="burger" data-menu-open>
+          <span>burger button</span>
+        </button>
+      </div>
+    </header>
+    <!--header end-->
+
+    <main class="main">
+      <!--section Hero-->
+      <section class="section section--hero">
+        <div class="container">
+          <div class="hero-bg">
+            <video
+              poster="./assets/img/hero-desktop@2x.jpg"
+              width="1280"
+              height="720"
+              class="video-bg"
+              autoplay
+              loop
+              muted
+              data-desctop="./assets/video/video.mp4"
+              data-mobil="./assets/video/video_mobil.mp4"
+            ></video>
+          </div>
+          <div class="hero-content">
+            <h1 class="title title--h1" data-animation="fade-top" data-delay="0">
+              SPA<br />M.NECTAR
+              <svg width="24" height="52">
+                <use href="./assets/img/icons.svg#by"></use>
+              </svg>
+            </h1>
+            <p class="subtitle small" data-animation="fade-top" data-delay="200">
+              <b>Wellness-территория красоты и баланса</b>
+              Подарите своему телу полное погружение в атмосферу расслабления
+            </p>
+            <div class="forBtn" data-animation="fade-top" data-delay="400">
+              <a href="https://wa.me/37256469796" target="_blank" class="button">записаться</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section Hero end-->
+
+      <!--section About-->
+      <section class="section section--about" id="section--about">
+        <svg width="1440" height="768" class="about-line del_in1280">
+          <use href="./assets/img/icons.svg#about-line"></use>
+        </svg>
+        <div class="container">
+          <div class="titleBox">
+            <h2 class="title title--h2">О центре</h2>
+            <p class="subtitle">для нас важно, чтобы все вокруг, от декора помещения до оборудования, приносило вам приятные эмоции и наслаждение.</p>
+          </div>
+          <div class="abot-images">
+            <div class="about-images__item del_in1280" data-animation="scale" data-delay="10">
+              <picture class="picture">
+                <img
+                  srcset="./assets/img/about1.png 1x, ./assets/img/about1@2x.png 2x"
+                  src="./assets/img/about1.png"
+                  alt="spa salon nectar"
+                  width="520"
+                  height="448"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <div class="about-images__item" data-animation="scale" data-delay="200">
+              <picture class="picture">
+                <source media="(min-width:1280px)" srcset="./assets/img/about2.png 1x, ./assets/img/about2@2x.png 2x" />
+                <source media="(min-width:1024px)" srcset="./assets/img/about1024.png 1x, ./assets/img/about1024@2x.png 2x" />
+                <source media="(min-width:744px)" srcset="./assets/img/about744.png 1x, ./assets/img/about744@2x.png 2x" />
+                <source media="(min-width:744px)" srcset="./assets/img/about744.png 1x, ./assets/img/about744@2x.png 2x" />
+                <source media="(min-width:480px)" srcset="./assets/img/about480.png 1x, ./assets/img/about480@2x.png 2x" />
+                <img
+                  srcset="./assets/img/about320.png 1x, ./assets/img/about320@2x.png 2x"
+                  src="./assets/img/about320.png"
+                  alt="spa salon nectar"
+                  width="620"
+                  height="568"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <div class="about-images__item del_in1280" data-animation="scale" data-delay="400">
+              <picture class="picture">
+                <img
+                  srcset="./assets/img/about3.png 1x, ./assets/img/about3@2x.png 2x"
+                  src="./assets/img/about3.png"
+                  alt="spa salon nectar"
+                  width="526"
+                  height="574"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="subtitle small">
+              «Восполните баланс сил и энергии, окунитесь в атмосферу комфорта, релакса и наслаждения, расслабьтесь и отдохните от городской суеты.
+              Забота о теле и здоровье, современные методики ароматерапии»
+            </p>
+            <div class="forBtn">
+              <button class="button button--border" data-popup="gallery">подробнее</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- GALLERY -->
+      <div class="modal is-hidden" id="gallery">
+        <div class="popup__body">
+          <div class="popup">
+            <!--SLIDER-->
+            <div class="popupGallery">
+              <!--SLIDER ARROWS-->
+              <div class="slider-arrows">
+                <svg width="60" height="60" class="arr--prev swiperGallery--prev">
+                  <use href="./assets/img/icons.svg#prev"></use>
+                </svg>
+                <svg width="60" height="60" class="arr--next swiperGallery--next">
+                  <use href="./assets/img/icons.svg#next"></use>
+                </svg>
+              </div>
+              <div class="swiper-container swiperGallery">
+                <div class="swiper-wrapper">
+                  <img src="./assets/img/gallery/1.jpg" alt="spa salon nectar" class="swiper-slide" />
+                  <img src="./assets/img/gallery/2.jpg" alt="spa salon nectar" class="swiper-slide" />
+                  <img src="./assets/img/gallery/3.jpg" alt="spa salon nectar" class="swiper-slide" />
+                  <img src="./assets/img/gallery/4.jpg" alt="spa salon nectar" class="swiper-slide" />
+                  <img src="./assets/img/gallery/5.jpg" alt="spa salon nectar" class="swiper-slide" />
+                  <img src="./assets/img/gallery/6.jpg" alt="spa salon nectar" class="swiper-slide" />
+                  <img src="./assets/img/gallery/7.jpg" alt="spa salon nectar" class="swiper-slide" />
+                  <img src="./assets/img/gallery/8.jpg" alt="spa salon nectar" class="swiper-slide" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--section About end-->
+
+      <!--section WELLNESS CLINIC-->
+      <section class="section section--wellness">
+        <div class="container">
+          <div class="titleBox">
+            <h2 class="title title--h2">wellness clinic</h2>
+            <p class="title title--h5">SPA by M.Nectar - первый в Эстонии премиальный day spa центр.</p>
+          </div>
+          <div class="wellnesses">
+            <!--1-->
+            <div class="wellness wellness--one">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Курорт</h3>
+                <p class="subtitle">Один из самых эстетичных и атмосферных Spa-центров в Эстонии</p>
+              </div>
+            </div>
+            <!--2-->
+            <div class="wellness wellness--two">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Натуральные и экологически чистые продукты</h3>
+                <p class="subtitle">Используем только экологически чистые, натуральные материалы с безопасным составом</p>
+              </div>
+              <picture class="picture">
+                <source media="(min-width:1280px)" srcset="./assets/img/wellness1.png 1x, ./assets/img/wellness1@2x.png 2x" />
+                <source media="(min-width:1024px)" srcset="./assets/img/wellness1_1024.png 1x, ./assets/img/wellness1_1024@2x.png 2x" />
+                <source media="(min-width:744px)" srcset="./assets/img/wellness1_744.png 1x, ./assets/img/wellness1_744@2x.png 2x" />
+                <source media="(min-width:480px)" srcset="./assets/img/wellness1_480.png 1x, ./assets/img/wellness1_480@2x.png 2x" />
+                <img
+                  srcset="./assets/img/wellness1_320.png 1x, ./assets/img/wellness1_320@2x.png 2x"
+                  src="./assets/img/wellness1_320.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--2 dop-->
+            <div class="wellness wellness--dop" data-animation="fade-bottom" data-delay="10">
+              <picture class="picture">
+                <img
+                  srcset="./assets/img/wellness1_480.png 1x, ./assets/img/wellness1_480@2x.png 2x"
+                  src="./assets/img/wellness1_480.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--3-->
+            <div class="wellness wellness--three">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Удобство</h3>
+                <p class="subtitle">Персональный подход к комфорту каждого гостя</p>
+              </div>
+              <picture class="picture">
+                <source media="(min-width:1280px)" srcset="./assets/img/wellness2.png 1x, ./assets/img/wellness2@2x.png 2x" />
+                <source media="(min-width:1024px)" srcset="./assets/img/wellness2_1024.png 1x, ./assets/img/wellness2_1024@2x.png 2x" />
+                <source media="(min-width:744px)" srcset="./assets/img/wellness2_744.png 1x, ./assets/img/wellness2_744@2x.png 2x" />
+                <source media="(min-width:480px)" srcset="./assets/img/wellness2_480.png 1x, ./assets/img/wellness2_480@2x.png 2x" />
+                <img
+                  srcset="./assets/img/wellness2_320.png 1x, ./assets/img/wellness2_320@2x.png 2x"
+                  src="./assets/img/wellness2_320.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--3 dop-->
+            <div class="wellness wellness--dop2" data-animation="fade-bottom" data-delay="10">
+              <picture class="picture">
+                <img
+                  srcset="./assets/img/wellness2_480.png 1x, ./assets/img/wellness2_480@2x.png 2x"
+                  src="./assets/img/wellness2_480.png"
+                  alt="spa salon nectar"
+                  width="650"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+            <!--4-->
+            <div class="wellness wellness--four">
+              <div class="text" data-animation="fade-bottom" data-delay="10">
+                <h3 class="title title--h5">Гранд-мастера</h3>
+                <p class="subtitle">Специалисты высшего класса из европейских стран</p>
+              </div>
+            </div>
+            <div class="wellness-line" data-animation="scale" data-delay="10">
+              <svg>
+                <use href="./assets/img/icons.svg#wellness-line"></use>
+              </svg>
+              <img
+                class="wellness-line1"
+                srcset="./assets/img/wellness1.png 1x, ./assets/img/wellness1@2x.png 2x"
+                src="./assets/img/wellness1.png"
+                alt="spa salon nectar"
+                width="350"
+                data-animation="scale"
+                data-delay="300"
+              />
+              <img
+                class="wellness-line2"
+                srcset="./assets/img/wellness2.png 1x, ./assets/img/wellness2@2x.png 2x"
+                src="./assets/img/wellness2.png"
+                alt="spa salon nectar"
+                width="510"
+                data-animation="scale"
+                data-delay="600"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section WELLNESS CLINIC end-->
+
+      <!--section FORM-->
+      <section class="section section--form">
+        <div class="container">
+          <div class="titleBox">
+            <h2 class="title title--h2">СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ</h2>
+          </div>
+          <div class="formBox" data-animation="fade-bottom" data-delay="10">
+            <div class="form-content">
+              <h3 class="title title--h5">При посещении любого массажа от 60 минут в подарок маникюр*.</h3>
+              <p class="subtitle small">
+                *маникюр можно посетить в любое другое удобное
+                <br class="del_in1024" />время и нужно будет бронировать заранее
+              </p>
+              <div class="form-content__price">
+                <div class="formPrice">
+                  <!-- <span>135€</span> -->
+                  <p>60 минут от 90€</p>
+                </div>
+                <img
+                  class="offer"
+                  srcset="./assets/img/offer.png 1x, ./assets/img/offer@2x.png 2x"
+                  src="./assets/img/offer.png"
+                  alt="spa salon nectar"
+                  width="262"
+                  height="239"
+                />
+              </div>
+            </div>
+            <div class="form-inputs">
+              <form action="#" method="POST" class="form" autocomplete="off" novalidate>
+                <input type="hidden" name="subject" class="subject" value="Специальное предложение" />
+                <!-- name -->
+                <label class="label">
+                  <input type="text" class="input" name="name" placeholder="Имя" required />
+                </label>
+                <!-- Phone -->
+                <label class="label">
+                  <input type="tel" class="input input--tel" name="phone" required />
+                </label>
+                <!-- submit -->
+                <button type="submit" class="button button--border">Отправить</button>
+                <p class="policy">
+                  Отправляя контактные данные, Вы соглашаетесь с
+                  <a href="./policy/">политикой конфиденциальности</a> сайта
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section FORM end-->
+
+      <!--section SERVICES-->
+      <section class="section section--services">
+        <div class="container" data-animation="fade-bottom" data-delay="10">
+          <div class="titleBox">
+            <h2 class="title title--h2">Услуги</h2>
+          </div>
+          <ul class="services-navigation" data-tabnav>
+            <li>
+              <button class="button button--small button--tab active" data-tab="1">эксклюзивные спа-процедуры</button>
+            </li>
+            <li>
+              <button class="button button--small button--tab" data-tab="2">массаж тела</button>
+            </li>
+            <li>
+              <button class="button button--small button--tab" data-tab="3">массаж лица</button>
+            </li>
+            <li>
+              <button class="button button--small button--tab" data-tab="4">спа-маникюр, педикюр</button>
+            </li>
+          </ul>
+          <div class="tabs services">
+            <!--tab 1-->
+            <div class="tab" data-tab="1">
+              <div class="titleBox">
+                <div class="combination">
+                  <h3 class="title title--h5">Мы работаем по стандартам 5&ndash;ти звездочного сервиса</h3>
+                  <p class="subtitle">Мы предлагаем уникальное сезонное <br />спа-меню и услуги основного спа-меню.</p>
+                </div>
+                <p class="subtitle">
+                  Наш салон выделяется уникальным опытом благодаря приватной спа-зоне и индивидуальному подходу к каждому гостю. В умиротворенной
+                  обстановке нашей тихой спа-зоны вы сможете настроиться на процедуру и насладиться спокойствием после неё. В качестве дополнительной
+                  услуги к любой процедуре вы можете добавить сеанс индивидуальной инфракрасной сауны, чтобы получить дополнительный релакс и
+                  расслабление.
+                </p>
+                <div class="forBtn">
+                  <a href="./day_spa" class="button button--border">Прейскурант</a>
+                </div>
+              </div>
+              <div class="setvices-images">
+                <div class="services-images__item">
+                  <img
+                    class="offer"
+                    srcset="./assets/img/service1b.jpg 1x, ./assets/img/service1b@2x.jpg 2x"
+                    src="./assets/img/service1b.jpg"
+                    alt="spa salon nectar"
+                  />
+                  <div class="info">
+                    <p>САУНА + АРОМАТЕРАПИЯ + МАССАЖ</p>
+                    <span>€150 — 90 минут</span>
+                  </div>
+                </div>
+                <div class="services-images__item">
+                  <div class="bigger-image">
+                    <img
+                      class="offer"
+                      srcset="./assets/img/service1a@2x.jpg 1x, ./assets/img/service1a@2x.jpg 2x"
+                      src="./assets/img/service1a.jpg"
+                      alt="spa salon nectar"
+                    />
+                    <div class="info">
+                      <p>РОСКОШНЫЙ ПРОТОКОЛ ALPEOR ЛИЦО + ТЕЛО + САУНА</p>
+                      <span>€360 — 120 минут</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--tab 2-->
+            <div class="tab" data-tab="2">
+              <div class="titleBox">
+                <h3 class="title title--h5">Мы работаем по стандартам 5&ndash;ти звездочного сервиса</h3>
+                <p class="subtitle">
+                  Качественные массажные программы от опытных мастеров, ароматические скрабы, натуральные обертывания - это лучший способ выразить
+                  любовь к своему телу.
+                </p>
+                <div class="forBtn">
+                  <a href="./body" class="button button--border">Прейскурант</a>
+                </div>
+              </div>
+              <div class="setvices-images">
+                <div class="services-images__item">
+                  <img
+                    class="offer"
+                    srcset="./assets/img/service2a.jpg 1x, ./assets/img/service2a@2x.jpg 2x"
+                    src="./assets/img/service2a.jpg"
+                    alt="spa salon nectar"
+                  />
+                </div>
+                <div class="services-images__item">
+                  <div class="bigger-image">
+                    <img
+                      class="offer"
+                      srcset="./assets/img/service2b.jpg 1x, ./assets/img/service2b@2x.jpg 2x"
+                      src="./assets/img/service2b.jpg"
+                      alt="spa salon nectar"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--tab 3-->
+            <div class="tab" data-tab="3">
+              <div class="titleBox">
+                <h3 class="title title--h5">Мы работаем по стандартам 5&ndash;ти звездочного сервиса</h3>
+                <p class="subtitle">
+                  Позаботьтесь о красоте и молодости своего лица с luxury-продуктами швейцарского бренда натуральной косметики Alpeor.
+                </p>
+                <div class="forBtn">
+                  <a href="./face" class="button button--border">Прейскурант</a>
+                </div>
+              </div>
+              <div class="setvices-images">
+                <div class="services-images__item">
+                  <img
+                    class="offer"
+                    srcset="./assets/img/service3a.jpg 1x, ./assets/img/service3a@2x.jpg 2x"
+                    src="./assets/img/service3a.jpg"
+                    alt="spa salon nectar"
+                  />
+                </div>
+                <div class="services-images__item">
+                  <div class="bigger-image">
+                    <img
+                      class="offer"
+                      srcset="./assets/img/service3b.jpg 1x, ./assets/img/service3b@2x.jpg 2x"
+                      src="./assets/img/service3b.jpg"
+                      alt="spa salon nectar"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--tab 4-->
+            <div class="tab" data-tab="4">
+              <div class="titleBox">
+                <h3 class="title title--h5">Мы работаем по стандартам 5&ndash;ти звездочного сервиса</h3>
+                <p class="subtitle">Премиальный уход для рук и ног с использованием продуктов всемирно известного бренда CND.</p>
+                <div class="forBtn">
+                  <a href="./nails" class="button button--border">Прейскурант</a>
+                </div>
+              </div>
+              <div class="setvices-images">
+                <div class="services-images__item">
+                  <img
+                    class="offer"
+                    srcset="./assets/img/service4a.jpg 1x, ./assets/img/service4a@2x.jpg 2x"
+                    src="./assets/img/service4a.jpg"
+                    alt="spa salon nectar"
+                  />
+                </div>
+                <div class="services-images__item">
+                  <div class="bigger-image">
+                    <img
+                      class="offer"
+                      srcset="./assets/img/service4b.jpg 1x, ./assets/img/service4b@2x.jpg 2x"
+                      src="./assets/img/service4b.jpg"
+                      alt="spa salon nectar"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section SERVICES end-->
+
+      <!--section EXCLUSIVE-->
+      <section class="section section--exclusive">
+        <svg width="1440" height="768" class="exclusive-line del_in1024">
+          <use href="./assets/img/icons.svg#exclusive-line"></use>
+        </svg>
+        <div class="container">
+          <div class="titleBox">
+            <h2 class="title title--h2">
+              Эксклюзивные услуги
+              <svg width="28" height="48"><use href="./assets/img/icons.svg#by"></use></svg>
+              M.Nectar
+            </h2>
+            <a href="https://wa.me/37256469796" target="_blank" class="button del_in1440">записаться</a>
+          </div>
+          <div class="exclusive-services">
+            <div class="exclusive-services__item">
+              <div class="exclusive">
+                <div class="titleBox">
+                  <h3 class="title title--h5">Ароматерапия</h3>
+                  <p class="subtitle">
+                    Подбор персональной формулы аромата M.Nectar, которая поможет вам справиться с тревогой, восстановить эмоциональное равновесие и
+                    сбалансировать тело.
+                  </p>
+                  <img
+                    class="exclusive__image"
+                    srcset="./assets/img/exclusive1.png 1x, ./assets/img/exclusive1@2x.png 2x"
+                    src="./assets/img/exclusive1.png"
+                    alt="spa salon nectar"
+                    height="520"
+                    width="670"
+                    data-animation="scale"
+                    data-delay="10"
+                  />
+                  <div class="forBtn">
+                    <a href="./aromatherapy" class="button button--border">подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="exclusive-services__item">
+              <div class="exclusive">
+                <div class="titleBox">
+                  <h3 class="title title--h5">Аппаратная косметология</h3>
+                  <p class="subtitle">Процедуры по телу на аппарате <br />Vibra B (The Beauty vibe)</p>
+                  <img
+                    class="exclusive__image"
+                    srcset="./assets/img/exclusive2.png 1x, ./assets/img/exclusive2@2x.png 2x"
+                    src="./assets/img/exclusive2.png"
+                    alt="spa salon nectar"
+                    height="492"
+                    width="634"
+                    data-animation="scale"
+                    data-delay="10"
+                  />
+                  <div class="forBtn">
+                    <a href="./vibra" class="button button--border">подробнее</a>
+                    <a href="https://wa.me/37256469796" target="_blank" class="button button--white del_in1024">записаться</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section EXCLUSIVE end-->
+
+      <!--section PRODUCTS-->
+      <section class="section section--products">
+        <div class="container">
+          <div class="products-head" data-animation="fade-bottom" data-delay="10">
+            <div class="titleBox">
+              <h2 class="title title--h2">Интернет-магазин</h2>
+              <p class="subtitle big">КОСМЕТИКА ДЛЯ ЛИЦА И ТЕЛА, НАТУРАЛЬНЫЕ АРОМАМАСЛА</p>
+            </div>
+            <a href="https://mnectar.eu/" target="_blank" class="button button--border">в магазин</a>
+          </div>
+          <div class="products">
+            <div class="product" data-animation="fade-bottom" data-delay="10">
+              <img
+                srcset="./assets/img/product1.jpg 1x, ./assets/img/product1@2x.jpg 2x"
+                src="./assets/img/product1.jpg"
+                alt="spa salon nectar"
+                height="550"
+              />
+              <div class="titleBox">
+                <h3 class="title title--h5">эфирные масла</h3>
+                <p class="subtitle">Натуральные эфирные масла премиум класса</p>
+                <a href="https://mnectar.eu/" target="_blank" class="button button--border">перейти</a>
+              </div>
+            </div>
+            <div class="product" data-animation="fade-bottom" data-delay="10">
+              <img
+                srcset="./assets/img/product2.jpg 1x, ./assets/img/product2@2x.jpg 2x"
+                src="./assets/img/product2.jpg"
+                alt="spa salon nectar"
+                height="550"
+              />
+              <div class="titleBox">
+                <h3 class="title title--h5">Твердые масла</h3>
+                <p class="subtitle">Натуральные эфирные масла премиум класса</p>
+                <a href="https://mnectar.eu/" target="_blank" class="button button--border">перейти</a>
+              </div>
+            </div>
+            <div class="product" data-animation="fade-bottom" data-delay="10">
+              <img
+                srcset="./assets/img/product3.jpg 1x, ./assets/img/product3@2x.jpg 2x"
+                src="./assets/img/product3.jpg"
+                alt="spa salon nectar"
+                height="550"
+              />
+              <div class="titleBox">
+                <h3 class="title title--h5">гидролат</h3>
+                <p class="subtitle">Гидролат - от гидро + le lait - дистиллят, образующаяся при паровой дистилляции растительного сырья</p>
+                <a href="https://mnectar.eu/" target="_blank" class="button button--border">перейти</a>
+              </div>
+            </div>
+            <div class="product" data-animation="fade-bottom" data-delay="10">
+              <img
+                srcset="./assets/img/product4.jpg 1x, ./assets/img/product4@2x.jpg 2x"
+                src="./assets/img/product4.jpg"
+                alt="spa salon nectar"
+                height="550"
+              />
+              <div class="titleBox">
+                <h3 class="title title--h5">базовые масла</h3>
+                <p class="subtitle">природные жиры, используются для создания композиций с эфирными маслами</p>
+                <a href="https://mnectar.eu/" target="_blank" class="button button--border">перейти</a>
+              </div>
+            </div>
+          </div>
+          <div class="products-foot" data-animation="fade-bottom" data-delay="10">
+            <a href="https://mnectar.eu/" target="_blank" class="button button--border">в магазин</a>
+          </div>
+        </div>
+      </section>
+      <!--section PRODUCTS end-->
+
+      <!--section SCHOOL-->
+      <section class="section section--school">
+        <svg width="1440" height="768" class="exclusive-line">
+          <use href="./assets/img/icons.svg#exclusive-line"></use>
+        </svg>
+        <div class="container">
+          <div class="school">
+            <h2 class="title title--h3">школа высокой аромотерапии</h2>
+            <p class="subtitle big">АВТОРСКИЙ ОНЛАЙН-КУРС АННЫ ПЫШНОГРАЕВОЙ</p>
+            <div class="school__image" data-animation="scale" data-delay="10">
+              <img
+                srcset="./assets/img/school.jpg 1x, ./assets/img/school@2x.jpg 2x"
+                src="./assets/img/school.jpg"
+                alt="spa salon nectar"
+                width="816"
+              />
+            </div>
+            <a href="https://aromamoda.com/" target="_blank" class="button button--border">посмотреть программу</a>
+          </div>
+        </div>
+      </section>
+      <!--section SCHOOL end-->
+
+      <!--section PRESENT-->
+      <section class="section section--present">
+        <div class="container">
+          <div class="present">
+            <div class="present__item">
+              <img
+                srcset="./assets/img/present1.jpg 1x, ./assets/img/present1@2x.jpg 2x"
+                src="./assets/img/present1.jpg"
+                alt="spa salon nectar"
+                width="720"
+              />
+              <div class="titleBox">
+                <h2 class="title title--h3">ПОДАРОЧНЫЕ СЕРТИФИКАТЫ</h2>
+                <p class="subtitle medium">Лучшее решение для подарка</p>
+                <a href="./certificate" class="button button--border">перейти</a>
+              </div>
+            </div>
+            <div class="present__item">
+              <img
+                srcset="./assets/img/present2.jpg 1x, ./assets/img/present2@2x.jpg 2x"
+                src="./assets/img/present2.jpg"
+                alt="spa salon nectar"
+                width="720"
+                data-animation="fade-right"
+                data-delay="200"
+                data-repeat="true"
+              />
+              <div class="titleBox">
+                <h2 class="title title--h3">АБОНЕМЕНТЫ</h2>
+                <p class="subtitle medium">Коллекции посещений spa процедур <br />на выгодных условиях</p>
+                <a href="./certificate" class="button button--border">перейти</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section PRESENT end-->
+
+      <!--section BRENDS-->
+      <section class="section section--brends">
+        <div class="container">
+          <div class="brends-head">
+            <h2 class="title title--h3">премиальная косметика</h2>
+            <p class="subtitle big">
+              Мы тщательно подбирали косметику мировых брендов для лица и тела. Искали эксклюзивные бренды и на 100% уверены в качестве.
+            </p>
+          </div>
+          <!--SLIDER ARROWS-->
+          <div class="slider-arrows">
+            <svg width="60" height="60" class="arr--prev swiperBrend--prev">
+              <use href="./assets/img/icons.svg#prev"></use>
+            </svg>
+            <svg width="60" height="60" class="arr--next swiperBrend--next">
+              <use href="./assets/img/icons.svg#next"></use>
+            </svg>
+          </div>
+          <!--SLIDER-->
+          <div class="brendsSlider">
+            <div class="swiper-container swiperBrend">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="brend-image">
+                    <img srcset="./assets/img/brend1.png" src="./assets/img/brend1.png" alt="spa salon nectar" height="72" />
+                  </div>
+                  <div class="brend-text">
+                    <h3 class="title title--h7">Alpeor Switzerland</h3>
+                    <p class="subtitle small">
+                      Раскрывает секреты природы для вашей кожи. Понимание внутренней работы жизни, использование силы растений и имитация их
+                      невероятных свойств для придания вашей коже.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brend-image">
+                    <img srcset="./assets/img/brend2.png" src="./assets/img/brend2.png" alt="spa salon nectar" height="72" />
+                  </div>
+                  <div class="brend-text">
+                    <h3 class="title title--h7">M. NECTAR</h3>
+                    <p class="subtitle small">
+                      Английский семейный бизнес со славянской душой и европейским подходом к качеству в сфере продажи профессиональной продукции для
+                      ароматерапии, спа и массажной техники.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brend-image">
+                    <img srcset="./assets/img/brend3.png" src="./assets/img/brend3.png" alt="spa salon nectar" height="72" />
+                  </div>
+                  <div class="brend-text">
+                    <h3 class="title title--h7">CND</h3>
+                    <p class="subtitle small">
+                      Одна из самых легендарных корпораций в мире. Это символ качества, синоним качества и гарантия безупречного и безопасного
+                      маникюра.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section BRENDS end-->
+
+      <!--section INSTAGRAM-->
+      <section class="section section--instagram">
+        <svg width="940" height="470" class="insta-line">
+          <use href="./assets/img/icons.svg#insta-line"></use>
+        </svg>
+        <div class="container">
+          <h2 class="title title--h3">Мы в социальных сетях</h2>
+          <div class="insta-grid">
+            <div class="insta-grid__item">
+              <div class="insta-head">
+                <div class="titleBox">
+                  <h3 class="title title--h4">Инстаграм</h3>
+                  <p class="subtitle small">
+                    Будьте в курсе наших событий online, <br />
+                    подписывайтесь на нас <b>@mnectar_spa</b>
+                  </p>
+                </div>
+                <a href="https://instagram.com/mnectar_spa?igshid=MzRlODBiNWFlZA==" target="_blank" class="button button--border">подписаться</a>
+              </div>
+              <ul class="insta-images">
+                <li>
+                  <img src="./assets/img/insta1.jpg" alt="spa salon nectar" width="166" height="144" />
+                </li>
+                <li>
+                  <img src="./assets/img/insta2.jpg" alt="spa salon nectar" width="166" height="144" />
+                </li>
+                <li>
+                  <img src="./assets/img/insta3.jpg" alt="spa salon nectar" width="166" height="144" />
+                </li>
+                <li>
+                  <img src="./assets/img/insta4.jpg" alt="spa salon nectar" width="166" height="144" />
+                </li>
+              </ul>
+            </div>
+            <div class="insta-grid__item">
+              <img src="./assets/img/instagram.png" alt="spa salon nectar" width="340" height="570" data-animation="fade-top" data-delay="10" />
+            </div>
+          </div>
+          <a href="https://instagram.com/mnectar_spa?igshid=MzRlODBiNWFlZA==" target="_blank" class="button button--border">подписаться</a>
+        </div>
+      </section>
+      <!--section INSTAGRAM end-->
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_content footer_content--left">
+          <div class="footer-info">
+            <a href="./" class="logo">
+              <svg width="122" height="104">
+                <use href="./assets/img/icons.svg#logo"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="footer-info">
+            <a href="https://wa.me/37256469796" target="_blank" class="button">записаться</a>
+          </div>
+          <div class="footer-info full">
+            <a href="mailto:mnectarspa@gmail.com" class="footer__link mail">mnectarspa@gmail.com</a>
+            <a href="tel:+37256469796" class="footer__link phone">+372 5646 9796</a>
+          </div>
+        </div>
+        <div class="footer_content footer_content--right">
+          <div class="footer-info full">
+            <address class="adress">
+              <p class="title title--h6">Адрес:</p>
+              <span><a href="https://maps.app.goo.gl/9XzqV92eRpFfykC39?g_st=ic" target="_blank">C.R. Jakobsoni, 13, Tallinn, Estonia</a></span>
+            </address>
+            <address class="adress">
+              <p class="title title--h6">Часы работы:</p>
+              <span>10:00-20:00 ПН-CБ</span>
+            </address>
+            <ul class="social">
+              <li>
+                <a href="https://instagram.com/mnectar_spa?igshid=MzRlODBiNWFlZA==" target="blank">
+                  <svg width="30" height="30">
+                    <use href="./assets/img/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/37256469796" target="blank">
+                  <svg width="30" height="30">
+                    <use href="./assets/img/icons.svg#watsup"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#!" target="blank">
+                  <svg width="30" height="30">
+                    <use href="./assets/img/icons.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <p class="policy del_in1024">
+              <a href="./policy">Политика конфиденциальности</a><br />
+              &copy;SPA by M.Nectar 2023. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <div class="copy">
+          <p class="policy show_in1024"><a href="./policy">Политика конфиденциальности</a> <br />&copy;SPA by M.Nectar 2023. All rights reserved.</p>
+          <p>
+            Дизайн и разработка by
+            <a href="https://beauty-alliance.ru/" target="_blank" class="link">Beauty Alliance</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--footer end--><!-- backdrop -->
+    <div class="backdrop is-hidden"></div>
+
+    <!-- REQUEST -->
+    <div class="modal is-hidden" id="request">
+      <div class="popup__body">
+        <div class="popup">
+          <button class="popup__close" data-popup-close></button>
+          <b class="popup-title">Отправить заявку</b>
+          <p class="popup-subtitle">
+            Заполните форму и наш менеджер <br />
+            свяжется с вами в ближайшее время!
+          </p>
+          <form action="#" method="POST" class="form" autocomplete="off" novalidate>
+            <input type="hidden" name="subject" class="subject" value="Order Form" />
+            <!-- name -->
+            <label class="label">
+              <input type="text" class="input" name="name" placeholder="Имя" required />
+            </label>
+            <!-- Phone -->
+            <label class="label">
+              <input type="tel" class="input input--tel" name="phone" required />
+            </label>
+            <button type="submit" class="button">Отправить</button>
+            <p class="policy">
+              Отправляя контактные данные, Вы соглашаетесь с
+              <a href="./policy/">политикой конфиденциальности</a> сайта
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- LOADING -->
+    <div class="modal is-hidden" id="loading">
+      <div class="popup__body">
+        <div class="popup"></div>
+      </div>
+    </div>
+
+    <!-- OK -->
+    <div class="modal is-hidden" id="ok">
+      <div class="popup__body">
+        <div class="popup">
+          <button class="popup__close" data-popup-close></button>
+          <b class="popup-title">Ваша заявка <br />успешно отправлена</b>
+          <p class="popup-subtitle">Наш менеджер свяжется <br />с вами в ближайшее время</p>
+          <button class="button" data-popup-close>Закрыть</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL POPUP END-->
+
+    <input type="hidden" name="assets" class="js-assets" value="./assets/" />
+    <input type="hidden" name="url" class="js-url" value="./" />
+    <input type="hidden" name="poddomen" class="poddomen" value="/nectar_html" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="module" src="./assets/js/scripts.min.js"></script>
+  </body>
+</html>
